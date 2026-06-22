@@ -2,7 +2,10 @@ math.randomseed(os.time())
 
 v1=18
 v2=12
+v3=10
+v4=9
 
-local p1=math.random(v1%4, 4+v1%10)
-local p2=math.random(14+v2%3, 17+v2%7)
+
+local p1=math.random(v1%4, 4+v2%10)
+local p2=math.random(14+v3%3, 17+v4%7)
 print(math.random(p1,p2))
